@@ -10,7 +10,7 @@ job('First-Maven-Project-Via-DSL') {
         maven{
             goals('clean package')
             rootPOM('pom.xml')
-            mavenInstallation('maven-3.9.5')
+            mavenInstallation('maven-3.9.6')
         }
     }
     publishers {
